@@ -1,0 +1,93 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navigation {
+  margin-bottom: 50px;
+}
+.header,
+.details {
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+.details-main {
+  margin-top: 40px;
+}
+
+.details {
+  margin-bottom: 30px;
+}
+
+.details a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+.about {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.header a {
+  color: var(--primary-color);
+}
+
+.details a {
+  text-decoration: none;
+}
+
+.contact {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  text-decoration: none;
+  padding: 20px 15px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+.main__text {
+  display: flex;
+}
+
+.main__text p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 4px;
+}
+.mail-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+}
+
+.mail-link:hover {
+  color: #0a58ca;
+  text-decoration: underline;
+}
